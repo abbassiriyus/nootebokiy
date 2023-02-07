@@ -1,0 +1,152 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #000;
+}
+
+.nav {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-menu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-logo button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1vw;
+  color: black;
+  background: #FFF;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.box-lap {
+  color: blue;
+  font-size: 1.3vw;
+}
+
+.addres {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #FFF;
+  color: #000;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1vw;
+  border-radius: 20px;
+}
+
+.call {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #FFF;
+  color: #000;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1vw;
+  border-radius: 20px;
+}
+
+.menu {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  background: #FFF;
+  color: #000;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1vw;
+  border-radius: 20px;
+}
+.main{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.main-p p{
+  font-size: 3vw;
+  color: #FFF;
+  font-weight: bold;
+}
+.main-p span{
+  background: #4047FF;
+  border-radius: 20px;
+  padding: 5px;
+}
+.main-none img{
+  position: absolute;
+  top: 170px;
+  left: 1400px;
+}
+.main-card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.room-card{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #4047FF;
+}
+.room-p{
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
