@@ -6,13 +6,15 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <main>
-    <HomeFooter/>
+    <HomeFooter />
   </main>
 </template>
 <style>
-*{
-  padding:0px;
-margin:0px}
+* {
+  padding: 0px;
+  margin: 0px
+}
+
 body {
   background-color: black;
 }

@@ -1,189 +1,196 @@
 <template>
-  <div class="all">
-<div class="main-2">
-    <img src="./aimg/free-icon-quote-565703 1 (Traced).png" alt="">
-    <p>Цены на наши услуги всегда доступны и полностью соотносятся как с текущими рыночными
-        тенденциями, так и с прейскурантами, размещенными в соответствующих разделах сайта. Обращаясь к нам
-        за помощью, вы получаете недорогой профессиональный ремонт, корректное обслуживание, адекватные цены и неизменно
-        положительные результаты затраченных усилий мастера</p>
-</div>
-<div class="divhr"></div>
-<div class="main-4">
-    <h1>Вызовите специалиста на дом<br>
-        <span>Приедем в любой район</span> Санкт-Петербурга
-    </h1>
-    <span>Мы приедем, починим Ваше устройство или заберем
-        его в сервисный центр для дальнейшего ремонта</span>
+    <div class="all">
+        <div class="main-2">
+            <img src="./aimg/free-icon-quote-565703 1 (Traced).png" alt="">
+            <p>Цены на наши услуги всегда доступны и полностью соотносятся как с текущими рыночными
+                тенденциями, так и с прейскурантами, размещенными в соответствующих разделах сайта. Обращаясь к нам
+                за помощью, вы получаете недорогой профессиональный ремонт, корректное обслуживание, адекватные цены и
+                неизменно
+                положительные результаты затраченных усилий мастера</p>
+        </div>
+        <div class="divhr"></div>
+        <div class="main-4">
+            <h1>Вызовите специалиста на дом<br>
+                <span>Приедем в любой район</span> Санкт-Петербурга
+            </h1>
+            <span>Мы приедем, починим Ваше устройство или заберем
+                его в сервисный центр для дальнейшего ремонта</span>
 
-    <img class="er" src="./aimg/Vector 1.png" alt="">
-    <div class="acards3">
-        <div id="ere" class="acards31">
-            <div class="acard3">
-                <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
-            </div>
-            <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
-            </div>
-            <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
+            <img class="er" src="./aimg/Vector 1.png" alt="">
+            <div class="acards3">
+                <div id="ere" class="acards31">
+                    <div class="acard3">
+                        <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                    <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                    <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                </div>
+                <div class="acards31">
+                    <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                    <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                    <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
+                        <h5>Красная ветка</h5>
+                        <p>Все станции красной ветки метрополитена
+                            и районы вокруг</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="acards31">
-            <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
+        <div class="divhr"></div>
+
+
+        <div class="main-3">
+            <h1><span>Принимаем к оплате</span><br>
+                наличные, карты и переводы</h1>
+            <div class="acards2">
+                <div class="acard2">
+                    <div>
+                        <h6>Наличный рассчет</h6>
+                        <p>Оплата услуг наличными</p>
+                    </div>
+                    <img src="./aimg/money-dynamic-color.png" alt="">
+                </div>
+                <div class="acard2">
+                    <div>
+                        <h6>Банковские карты</h6>
+                        <p>Оплата через терминал</p>
+                    </div>
+                    <img src="./aimg/money-dynamic-color.png" alt="">
+                </div>
+                <div class="acard2">
+                    <div>
+                        <h6>Безналичный рассчет</h6>
+                        <p>Безналичная оплата услуг</p>
+                    </div>
+                    <img src="./aimg/money-dynamic-color.png" alt="">
+                </div>
             </div>
-            <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
-            </div>
-            <div class="acard3"> <img src="./aimg/Metro_Sankt-Petersburg 9.png" alt="">
-                <h5>Красная ветка</h5>
-                <p>Все станции красной ветки метрополитена
-                    и районы вокруг</p>
-            </div>
+            <div class="acards3"><img src="./aimg/image 86 (Traced).png" alt=""><img src="./aimg/image 86 (Traced).png"
+                    alt=""><img src="./aimg/image 86 (Traced).png" alt=""></div>
         </div>
+
+
+        <div class="main-2">
+            <img src="./aimg/free-icon-quote-565703 1 (Traced).png" alt="">
+            <p>Цены на наши услуги всегда доступны и полностью соотносятся как с текущими рыночными
+                тенденциями, так и с прейскурантами, размещенными в соответствующих разделах сайта. Обращаясь к нам
+                за помощью, вы получаете недорогой профессиональный ремонт, корректное обслуживание, адекватные цены и
+                неизменно
+                положительные результаты затраченных усилий мастера</p>
+        </div>
+        <div class="divhr" style="margin-bottom:100px"></div>
+
+        <main class="main-1">
+            <h1>
+                Наши <span> контактные данные</span><br>
+                для быстрой связи
+            </h1>
+            <div class="main-1k">
+                <div class="main-1b">
+                    <h6>Все районы Санкт-Петербурга</h6>
+                    <h2>+7 (812) 333-70-75</h2>
+                    <div class="acards">
+                        <div class="acard">
+                            <p>Выезд матеров</p>
+                            <h4>с 10:00 до 21:00</h4>
+                        </div>
+                        <div class="acard">
+                            <p>Ремонтная зона</p>
+                            <h4>Ленинский пр, 136</h4>
+                        </div>
+                    </div>
+                    <span>Вы всегда можете связаться с нами <br>
+                        через мессенджеры!</span>
+                    <div class="acontacts">
+                        <div class="acontact">
+                            <div class="aimg"><img style="margin:auto" src="./aimg/path2991.png" alt=""></div>
+                            <div>Telegram</div>
+                        </div>
+                        <div class="acontact">
+                            <img src="./aimg/Vector.png" alt="">
+                            <div>WhatsApp</div>
+                        </div>
+                        <div class="acontact">
+                            <div class="aimg1"><img class="aimg2" src="./aimg/Vector(1).png" alt=""><img
+                                    src="./aimg/Vector(1).png" alt=""></div>
+                            <div style="margin-left:10px;">3771404@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="divhr"></div>
+                    <span>Оставьте заявку на сайте и на <br>
+                        Ваш адрес приедет наш специалист</span>
+                    <button>Оставить заявку на сайте</button>
+                </div>
+                <div class="main-1m">
+                    <div id="map" style="width: 100%; height: 100%">
+                        <iframe
+                        style="margin-top: -60px;width:100%;height: calc(100% + 60px)"
+                            src="https://www.google.com/maps/d/embed?mid=1c-HNAs-_hh4f1WRfe-DGnbOPPAcQnZs&ehbc=2E312F"
+                            ></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-logo">
+                <div class="flogo"><img src="./aimg/laptop-with-arrow 1.png" alt=""></div>
+                <h6>Компьютерный сервис</h6>
+            </div>
+            <ul>
+                <a href="">
+                    <li>Главная</li>
+                </a>
+                <a href="">
+                    <li>Устройства</li>
+                </a>
+                <a href="">
+                    <li>Бренды</li>
+                </a>
+                <a href="">
+                    <li>Районы обслуживания</li>
+                </a>
+                <a href="">
+                    <li>Оставить заявку</li>
+                </a>
+                <a href="">
+                    <li>О компании </li>
+                </a>
+                <a href="">
+                    <li>Контакты</li>
+                </a>
+            </ul>
+            <p>©2023 Сервисный центр электроники webabbas9@gmail.com</p>
+        </footer>
+
     </div>
-</div>
-<div class="divhr"></div>
-
-
-<div class="main-3">
-    <h1><span>Принимаем к оплате</span><br>
-        наличные, карты и переводы</h1>
-    <div class="acards2">
-        <div class="acard2">
-            <div>
-                <h6>Наличный рассчет</h6>
-                <p>Оплата услуг наличными</p>
-            </div>
-            <img src="./aimg/money-dynamic-color.png" alt="">
-        </div>
-        <div class="acard2">
-            <div>
-                <h6>Банковские карты</h6>
-                <p>Оплата через терминал</p>
-            </div>
-            <img src="./aimg/money-dynamic-color.png" alt="">
-        </div>
-        <div class="acard2">
-            <div>
-                <h6>Безналичный рассчет</h6>
-                <p>Безналичная оплата услуг</p>
-            </div>
-            <img src="./aimg/money-dynamic-color.png" alt="">
-        </div>
-    </div>
-    <div class="acards3"><img src="./aimg/image 86 (Traced).png" alt=""><img src="./aimg/image 86 (Traced).png"
-            alt=""><img src="./aimg/image 86 (Traced).png" alt=""></div>
-</div>
-
-
-<div class="main-2">
-    <img src="./aimg/free-icon-quote-565703 1 (Traced).png" alt="">
-    <p>Цены на наши услуги всегда доступны и полностью соотносятся как с текущими рыночными
-        тенденциями, так и с прейскурантами, размещенными в соответствующих разделах сайта. Обращаясь к нам
-        за помощью, вы получаете недорогой профессиональный ремонт, корректное обслуживание, адекватные цены и неизменно
-        положительные результаты затраченных усилий мастера</p>
-</div>
-<div class="divhr" style="margin-bottom:100px"></div>
-
-<main class="main-1">
-    <h1>
-        Наши <span> контактные данные</span><br>
-        для быстрой связи
-    </h1>
-    <div class="main-1k">
-        <div class="main-1b">
-            <h6>Все районы Санкт-Петербурга</h6>
-            <h2>+7 (812) 333-70-75</h2>
-            <div class="acards">
-                <div class="acard">
-                    <p>Выезд матеров</p>
-                    <h4>с 10:00 до 21:00</h4>
-                </div>
-                <div class="acard">
-                    <p>Ремонтная зона</p>
-                    <h4>Ленинский пр, 136</h4>
-                </div>
-            </div>
-            <span>Вы всегда можете связаться с нами <br>
-                через мессенджеры!</span>
-            <div class="acontacts">
-                <div class="acontact">
-                    <div class="aimg"><img style="margin:auto" src="./aimg/path2991.png" alt=""></div>
-                    <div>Telegram</div>
-                </div>
-                <div class="acontact">
-                    <img src="./aimg/Vector.png" alt="">
-                    <div>WhatsApp</div>
-                </div>
-                <div class="acontact">
-                    <div class="aimg1"><img class="aimg2" src="./aimg/Vector(1).png" alt=""><img
-                            src="./aimg/Vector(1).png" alt=""></div>
-                    <div style="margin-left:10px;">3771404@gmail.com</div>
-                </div>
-            </div>
-            <div class="divhr"></div>
-            <span>Оставьте заявку на сайте и на <br>
-                Ваш адрес приедет наш специалист</span>
-            <button>Оставить заявку на сайте</button>
-        </div>
-        <div class="main-1m">
-            <div id="map" style="width: 100%; height: 100%"></div>
-        </div>
-
-    </div>
-
-</main>
-<footer>
-    <div class="footer-logo">
-        <div class="flogo"><img src="./aimg/laptop-with-arrow 1.png" alt=""></div>
-        <h6>Компьютерный сервис</h6>
-    </div>
-    <ul>
-        <a href="">
-            <li>Главная</li>
-        </a>
-        <a href="">
-            <li>Устройства</li>
-        </a>
-        <a href="">
-            <li>Бренды</li>
-        </a>
-        <a href="">
-            <li>Районы обслуживания</li>
-        </a>
-        <a href="">
-            <li>Оставить заявку</li>
-        </a>
-        <a href="">
-            <li>О компании </li>
-        </a>
-        <a href="">
-            <li>Контакты</li>
-        </a>
-    </ul>
-    <p>©2023 Сервисный центр электроники webabbas9@gmail.com</p>
-</footer>
-
-  </div>
 </template>
 
 <script>
 </script>
 
 <style scoped>
-*{
+* {
     padding: 0px;
     margin: 0px;
     font-family: 'Mulish', sans-serif;
