@@ -8,6 +8,7 @@
                 его в сервисный центр для дальнейшего ремонта</p>
         </center>
         <div class="bosh">
+            <img src="./aimg/Vector 1.png" alt="" class="fonline" >
             <div class="kalla2">
                 <div class="pta">
                     <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
@@ -209,11 +210,11 @@
         <p class="img323">Ремонт шлефов матринцы на ноутбуке</p>
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="imgm">Ремонт материнской платы различных брендов и моделей ноутбуков</p> 
+        <p class="img323">Ремонт материнской платы различных брендов и моделей ноутбуков</p> 
         <img src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img1p">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
         <img src="./image/Mask group (1).png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
@@ -225,7 +226,7 @@
         <img src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img1p">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
         <img src="./image/Mask group (1).png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
@@ -233,11 +234,11 @@
         <img src="./image/Group 323.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="imgm">Ремонт материнской платы различных брендов и моделей ноутбуков</p>
+        <p class="img323">Ремонт материнской платы различных брендов и моделей ноутбуков</p>
         <img src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img1p">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
         <img src="./image/Mask group (1).png" alt="">
     </swiper-slide>
 </swiper>
@@ -310,6 +311,7 @@
             компьютероной техники</h1>
     </center>
             <div class="kta">
+                <img class="fonline" src="./aimg/Vector 1.png" alt="">
                 <div class="cs">
                     <div class="card">
                         <img src="./image/phone-ringing-dynamic-color.png" alt="">
