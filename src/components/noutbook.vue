@@ -2,20 +2,33 @@
     <div>
         <center>
             <h1 class="qoch">Вызовите специалиста на дом<br>
-                <span>Приедем в любой район</span> Санкт-Петербурга
+                <span class="ob-span">Приедем в любой район</span> Санкт-Петербурга
             </h1>
             <p class="poch" style="margin-top: 30px;">Мы приедем, починим Ваше устройство или заберем
                 его в сервисный центр для дальнейшего ремонта</p>
         </center>
         <div class="bosh">
+
             <img src="./aimg/Vector 1.png" alt="" class="fonline" >
             <div class="kalla2">
+
                 <div class="pta">
                     <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
                     <br>
                     <h4>Красная ветка</h4>
                     <p>Все станции красной ветки метрополитена <br>
                         и районы вокруг</p>
+                        <div class="pta1">
+                            <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                            <br><div class="br-br">
+                            <h4  class="img-ost">Оставить завявку</h4>
+                            <p>Оставьте заявку и наш специалист <br>
+                                отправится на указанный Вами адрес</p>
+                            <div class="btns">
+                                <button class="pta-btn">Вызвать специалиста</button>
+                                <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button></div>
+                            </div>
+                        </div>
                 </div>
                 <div class="pta">
                     <img src="./image/Metro_Sankt-Petersburg 10.png" alt="">
@@ -23,6 +36,19 @@
                     <h4>Зеленая ветка</h4>
                     <p>Все зеленый красной ветки метрополитена <br>
                         и районы вокруг</p>
+                        <div class="pta1">
+                            <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                            <br>
+                            <div class="br-br">
+                                <h4 class="img-ost">Оставить завявку</h4>
+                                <p>Оставьте заявку и наш специалист <br>
+                                    отправится на указанный Вами адрес</p>
+                                <div class="btns">
+                                    <button class="pta-btn">Вызвать специалиста</button>
+                                    <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 <div class="pta">
                     <img src="./image/Metro_Sankt-Petersburg 8 (2).png" alt="">
@@ -30,6 +56,19 @@
                     <h4>Фиолетвый ветка</h4>
                     <p>Все станции фиолетвый ветки метрополитена <br>
                         и районы вокруг</p>
+                    <div class="pta1">
+                        <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                        <br>
+                        <div class="br-br">
+                            <h4 class="img-ost">Оставить завявку</h4>
+                            <p>Оставьте заявку и наш специалист <br>
+                                отправится на указанный Вами адрес</p>
+                            <div class="btns">
+                                <button class="pta-btn">Вызвать специалиста</button>
+                                <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="kalla">
@@ -39,6 +78,19 @@
                     <h4>Синия ветка</h4>
                     <p>Все станции синий ветки метрополитена <br>
                         и районы вокруг</p>
+                        <div class="pta1">
+                            <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                            <br>
+                            <div class="br-br">
+                                <h4 class="img-ost">Оставить завявку</h4>
+                                <p>Оставьте заявку и наш специалист <br>
+                                    отправится на указанный Вами адрес</p>
+                                <div class="btns">
+                                    <button class="pta-btn">Вызвать специалиста</button>
+                                    <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 <div class="pta">
                     <img src="./image/Metro_Sankt-Petersburg 11.png" alt="">
@@ -46,15 +98,38 @@
                     <h4>Оранжевая</h4>
                     <p>Все станции оранжевой ветки метрополитена <br>
                         и районы вокруг</p>
+                        <div class="pta1">
+                            <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                            <br>
+                            <div class="br-br">
+                                <h4 class="img-ost">Оставить завявку</h4>
+                                <p>Оставьте заявку и наш специалист <br>
+                                    отправится на указанный Вами адрес</p>
+                                <div class="btns">
+                                    <button class="pta-btn">Вызвать специалиста</button>
+                                    <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-                <div class="pta1">
+                <div class="pta">
+                    <img src="./image/Metro_Sankt-Petersburg 11.png" alt="">
                     <br>
-                    <h4>Оставить завявку</h4>
-                    <p>Оставьте заявку и наш специалист <br>
-                    отправится на указанный Вами адрес</p>
-                    <div class="btns">
-                        <button class="pta-btn">Вызвать специалиста</button>
-                        <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                    <h4>Оранжевая</h4>
+                    <p>Все станции оранжевой ветки метрополитена <br>
+                        и районы вокруг</p>
+                    <div class="pta1">
+                        <img class="img-img" src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                        <br>
+                        <div class="br-br">
+                            <h4 class="img-ost">Оставить завявку</h4>
+                            <p>Оставьте заявку и наш специалист <br>
+                                отправится на указанный Вами адрес</p>
+                            <div class="btns">
+                                <button class="pta-btn">Вызвать специалиста</button>
+                                <button class="pta-btn1"><img src="./image/phone-end-dynamic-color.png" alt=""></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -193,53 +268,88 @@
                         <img src="./image/Frame 35.png" alt="">
 </div>
                     <div class="cardla">
-                        <h1 class="nma"><span>Наши работы</span> по ремонту<br>
+                        <h1 class="nma"><span class="ob-span">Наши работы</span> по ремонту<br>
                             компьюетрной техники</h1>
                         <div class="btnla">
                             <button>Ноутбуки</button>
                             <button>Моноблоки</button>
                             <button>Компьютеры</button>
 </div>
-<swiper :slidesPerView="2" :spaceBetween="30" :keyboard=" {
+<swiper 
+:slidesPerView="1"
+:navigation="true" :modules="modules" class="mySwiper2">
+    <swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">asdsadfadfds шлефов матринцы на ноутбуке</p>
+    </swiper-slide>
+    <swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide><swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide>
+    <swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide><swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide>
+    <swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide><swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide>
+    <swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide><swiper-slide>  <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+    </swiper-slide>
+</swiper>
+
+<swiper
+ :slidesPerView="2" :spaceBetween="30" :keyboard=" {
     enabled: true,
 }" :pagination="{
     clickable: true,
 }" :navigation="true" :modules="modules" class="mySwiper">
     <swiper-slide class="swiperabu">
-        <img src="./image/Group 323.png" alt="">
-        <p class="img323">Ремонт шлефов матринцы на ноутбуке</p>
+        <img class="ima-ge" src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт материнской платы различных брендов и моделей ноутбуков</p> 
-        <img src="./image/Mask group.png" alt="">
+
+        <p class="imgm">Ремонт материнской платы различных брендов и моделей ноутбуков</p> 
+        <img class="ima-ge" src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
-        <img src="./image/Mask group (1).png" alt="">
+        <p class="imgm">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <img class="ima-ge" src="./image/Mask group (1).png" alt="">
+
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт шлефов матринцы на ноутбуке</p>
-        <img src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+        <img class="ima-ge" src="./image/Group 323.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
         <p class="imgm">Ремонт материнской платы различных брендов и моделей ноутбуков</p>
-        <img src="./image/Mask group.png" alt="">
+        <img class="ima-ge" src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
-        <img src="./image/Mask group (1).png" alt="">
+
+        <p class="imgm">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <img class="ima-ge" src="./image/Mask group (1).png" alt="">
+
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт шлефов матринцы на ноутбуке</p>
-        <img src="./image/Group 323.png" alt="">
+        <p class="imgm">Ремонт шлефов матринцы на ноутбуке</p>
+        <img class="ima-ge" src="./image/Group 323.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт материнской платы различных брендов и моделей ноутбуков</p>
-        <img src="./image/Mask group.png" alt="">
+
+        <p class="imgm">Ремонт материнской платы различных брендов и моделей ноутбуков</p>
+        <img class="ima-ge" src="./image/Mask group.png" alt="">
     </swiper-slide>
     <swiper-slide class="swiperabu">
-        <p class="img323">Ремонт блока питания в системном блоке персонального компьюетра</p>
-        <img src="./image/Mask group (1).png" alt="">
+        <p class="imgm">Ремонт блока питания в системном блоке персонального компьюетра</p>
+        <img class="ima-ge" src="./image/Mask group (1).png" alt="">
+
     </swiper-slide>
 </swiper>
 <div class="phon">
@@ -307,7 +417,7 @@
             <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
         </div>
     <center class="cent">
-        <h1 class="h11"><span> Порядок работы </span>при ремонте<br>
+        <h1 class="h11"><span class="ob-span"> Порядок работы </span>при ремонте<br>
             компьютероной техники</h1>
     </center>
             <div class="kta">
@@ -570,6 +680,91 @@
                         </div>
                     </div>
                 </div>
+                    <div class="all">
+                
+                        <div class="divhr" style="margin-bottom:100px"></div>
+                
+                        <main class="main-1">
+                            <h1>
+                                Наши <span class="ob-span"> контактные данные</span><br>
+                                для быстрой связи
+                            </h1>
+                            <div class="main-1k">
+                                <div class="main-1b">
+                                    <h6>Все районы Санкт-Петербурга</h6>
+                                    <h2>+7 (812) 333-70-75</h2>
+                                    <div class="acards">
+                                        <div class="acard">
+                                            <p>Выезд матеров</p>
+                                            <h4>с 10:00 до 21:00</h4>
+                                        </div>
+                                        <div class="acard">
+                                            <p>Ремонтная зона</p>
+                                            <h4>Ленинский пр, 136</h4>
+                                        </div>
+                                    </div>
+                                    <p class="vi01">Вы всегда можете связаться с нами <br>
+                                        через мессенджеры!</p>
+                                    <div class="acontacts">
+                                        <div class="acontact">
+                                            <div class="aimg"><img style="margin:auto" src="./aimg/path2991.png" alt=""></div>
+                                            <div>Telegram</div>
+                                        </div>
+                                        <div class="acontact">
+                                            <img src="./aimg/Vector.png" alt="">
+                                            <div>WhatsApp</div>
+                                        </div>
+                                        <div class="acontact">
+                                            <div class="aimg1"><img class="aimg2" src="./aimg/Vector(1).png" alt=""><img src="./aimg/Vector(1).png" alt=""></div>
+                                            <div style="margin-left:10px;">3771404@gmail.com</div>
+                                        </div>
+                                    </div>
+                                    <div class="divhr"></div>
+                                    <p class="vi01">Оставьте заявку на сайте и на <br>
+                                        Ваш адрес приедет наш специалист</p>
+                                    <button class="n-ost">Оставить заявку на сайте</button>
+                                </div>
+                                <div class="main-1m">
+                                    <div id="map" style="width: 100%; height: 100%">
+                                        <iframe style="margin-top: -60px;width:100%;height: calc(100% + 60px)" src="https://www.google.com/maps/d/embed?mid=1c-HNAs-_hh4f1WRfe-DGnbOPPAcQnZs&ehbc=2E312F"></iframe>
+                                    </div>
+                                </div>
+                
+                            </div>
+                
+                        </main>
+                        <footer>
+                            <div class="footer-logo">
+                                <div class="flogo"><img src="./aimg/laptop-with-arrow 1.png" alt=""></div>
+                                <h6>Компьютерный сервис</h6>
+                            </div>
+                            <ul>
+                                <a href="">
+                                    <li>Главная</li>
+                                </a>
+                                <a href="">
+                                    <li>Устройства</li>
+                                </a>
+                                <a href="">
+                                    <li>Бренды</li>
+                                </a>
+                                <a href="">
+                                    <li>Районы обслуживания</li>
+                                </a>
+                                <a href="">
+                                    <li>Оставить заявку</li>
+                                </a>
+                                <a href="">
+                                    <li>О компании </li>
+                                </a>
+                                <a href="">
+                                    <li>Контакты</li>
+                                </a>
+                            </ul>
+                            <p>©2023 Сервисный центр электроники webabbas9@gmail.com</p>
+                        </footer>
+                
+                    </div>
             </div>
         </div>
     </div>
