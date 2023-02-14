@@ -2,18 +2,16 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HomeFooter from './components/HomeFooter.vue';
 import TheWelcome from './components/TheWelcome.vue'
+import Main from './components/Main.vue'
 </script>
 
 <template>
   <main>
-    <HomeFooter />
+    <Main />
+    <!-- <HomeFooter /> -->
   </main>
 </template>
 <style>
-* {
-  padding: 0px;
-  margin: 0px
-}
 
 body {
   background-color: black;
