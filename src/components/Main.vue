@@ -456,3 +456,33 @@
     </div>
   </div>
 </template>
+
+
+<style scoped></style>
+<script>
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+
+import 'swiper/css/navigation';
+
+import '../assets/main.css';
+
+// import required modules
+import { Navigation } from 'swiper';
+
+export default {
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
+    setup() {
+        return {
+            modules: [Navigation],
+        };
+    },
+};
+</script>
+

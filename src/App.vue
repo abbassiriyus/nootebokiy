@@ -1,8 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from './components/Main.vue'
 import HomeFooter from './components/HomeFooter.vue';
+
 import TheWelcome from './components/TheWelcome.vue'
 import Main from './components/Main.vue'
+import Dark from "./components/glavni.vue";
+import Note from "./components/noutbook.vue";
+import Card from "./components/cards.vue";
+import Rayon from "./components/Районы обслуживания .vue"
+import Senter from "./components/О сервисном центре.vue"
 </script>
 
 <template>
@@ -10,38 +16,18 @@ import Main from './components/Main.vue'
     <Main />
     <!-- <HomeFooter /> -->
   </main>
+</script>
+
+<template>
+
+<div>
+
+<Senter />
+
+</div>
+
 </template>
+
 <style>
 
-body {
-  background-color: black;
-}
-</style>
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
