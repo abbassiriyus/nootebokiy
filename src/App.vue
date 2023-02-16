@@ -13,11 +13,12 @@ import Rayon from "./components/Районы обслуживания .vue"
 import Kontakt from "./components/kantakt.vue"
 import Senter from "./components/О сервисном центре.vue"
 import Mono from "./components/monoblocks.vue";
+import Second from "./components/second.vue"
 </script>
 
 <template>
   <main>
-    <Komp />
+    <Kontakt />
   </main>
 
 </template>
