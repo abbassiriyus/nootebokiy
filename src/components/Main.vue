@@ -1,6 +1,6 @@
 <template>
-  <header class="header">
-    <nav class="nav">
+  <header class="header1">
+    <nav class="n-nav">
       <div class="nav-logo">
         <button><i class="bx bx-laptop box-lap"></i>Компьютерный сервис</button>
       </div>
@@ -77,6 +77,7 @@
           </div>
         </div>
         <div class="menu-absolute-modal">
+          <button onclick="document.querySelector('.menu-absolute').style = 'display: none;'"><i class='bx bx-x bx-spin box-x'></i></button>
           <div class="menu-absolute-modal-h3">
             <h3>Меню</h3>
           </div>
@@ -215,12 +216,12 @@
           заявке через сайт
         </p>
       </div>
-      <div class="main-none">
+      <div class="main-none2">
         <img src="../nimg/gift-dynamic-color.png" alt="" />
       </div>
     </div>
     <div class="main-card">
-      <div class="room-card">
+      <div class="room-card1">
         <div class="room-p">
           <div class="room-p2">
             <h3>Ремонт на дому</h3>
@@ -235,7 +236,7 @@
           <img src="../nimg/Frame 668.png" alt="" />
         </div>
       </div>
-      <div class="room-card">
+      <div class="room-card1">
         <div class="room-p">
           <div class="room-p2">
             <h3>Ремонт на дому</h3>
@@ -382,6 +383,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
   <div class="n-all-partner">
     <div class="n-all-partner-p">
       <p>
@@ -458,7 +460,21 @@
 </template>
 
 
-<style scoped></style>
+<style scoped>
+.n-kotegory {
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFF;
+}
+
+
+</style>
 <script>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
