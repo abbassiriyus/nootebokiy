@@ -384,8 +384,9 @@
 
     <div class="n-text">
         <p>
-            Наш сервисный центр ремонтирует <br />
-            множество <span>различных брендов</span>
+            Выберите один из множества <span>различных <br>
+                брендов ноутбуков,</span> которых мы ремонтируем
+
         </p>
     </div>
 
@@ -1323,16 +1324,24 @@
 
 <style>
 .n-kotegory {
-            width: 100%;
-            border-top-left-radius: 60px;
-            border-top-right-radius: 60px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            display: none;
-            align-items: center;
-            justify-content: space-around;
-            background: #FFF;
-        }
+    width: 100%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFF;
+}
+
+.n-footer {
+    display: none;
+}
+
+.qoch {
+    padding-top: 150px;
+}
 </style>
 <script>
 // Import Swiper Vue.js components

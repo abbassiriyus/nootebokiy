@@ -1882,11 +1882,10 @@ center {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    margin-left: 10px;
 }
 
 .mini01 {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     margin-top: 120px;
