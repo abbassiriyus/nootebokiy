@@ -1,6 +1,9 @@
 <template>
     <div>
                 <main class="main-1">
+                    <router-link :to="{ name: 'user', params: { username: 'erina' }}">
+  User
+</router-link>
             <h1>
                 Наши <span> контактные данные</span><br>
                 для быстрой связи
@@ -836,4 +839,7 @@ export default {
         };
     },
 };
+
+
+
 </script>
