@@ -1,10 +1,10 @@
 <script setup>
 import Main from "./components/Main.vue";
 import HomeFooter from './components/HomeFooter.vue';
-
-
+import Brand from './components/brand.vue'
+import Device from './components/device.vue'
 import TheWelcome from './components/TheWelcome.vue'
-
+import Brand2 from "./components/brand2.vue";
 import Dark from "./components/glavni.vue"
 import Komp from "./components/computers.vue";
 import Note from "./components/noutbook.vue";
@@ -22,7 +22,9 @@ import Second from "./components/second.vue"
 
 <template>
   <main>
-    <Second />
+
+    <Brand2 />
+
   </main>
 
 </template>

@@ -8,8 +8,8 @@
         <button class="addres">Все районы города | +7 (812) 409-42-65</button>
         <button class="call">Вызвать специалиста</button>
         <button onclick="document.querySelector('.menu').classList.toggle('active')
-            document.querySelector('.menu-absolute').classList.toggle('active')
-            document.querySelector('body').classList.toggle('active')" class="menu">
+              document.querySelector('.menu-absolute').classList.toggle('active')
+              document.querySelector('body').classList.toggle('active')" class="menu">
           <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
         </button>
       </div>
@@ -160,8 +160,8 @@
     <nav class="nav2">
       <div class="nav-logo2">
         <div onclick="document.querySelector('.nav-menu2').classList.toggle('active')
-            document.querySelector('.menu').classList.toggle('active')
-            " id="menuToggle" class="menu">
+              document.querySelector('.menu').classList.toggle('active')
+              " id="menuToggle" class="menu">
           <input type="checkbox" />
           <span id="span1"></span>
           <span id="span2"></span>
@@ -172,8 +172,8 @@
     <div class="nav-menu2">
       <div class="nav-fixed">
         <button onclick="document.querySelector('.menu').classList.toggle('active')
-            document.querySelector('.menu-absolute').classList.toggle('active')
-            document.querySelector('body').classList.toggle('active')" id="addres">
+              document.querySelector('.menu-absolute').classList.toggle('active')
+              document.querySelector('body').classList.toggle('active')" id="addres">
           <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
         </button>
         <button id="addres">
@@ -183,88 +183,62 @@
           Все районы города | +7 (812) 409-42-65
         </button>
         <button id="addres" onclick="document.querySelector('.coment-absolute').classList.toggle('active')
-            document.querySelector('.call').classList.toggle('active')
-            " class="call">
+              document.querySelector('.call').classList.toggle('active')
+              " class="call">
           Вызвать специалиста
         </button>
       </div>
     </div>
-    <div class="main">
-      <div class="main-p">
-        <p>
-          <span>Ремонт компьютеров</span> на <br>
-          дому или в сервисном центре <br>
-          со скидкой 10%
-        </p>
+    <div class="n-main-product">
+      <div class="n-main-text-product">
+        <h1>Ремонтируем <br>
+          <span>компьютерную</span> технику
+        </h1>
+        <p>Выберите тип техники, который хотите починить</p>
       </div>
-      <div class="main-none2">
-        <img src="../nimg/gift-dynamic-color.png" alt="" />
-      </div>
-    </div>
-    <div class="main-card1">
-      <div class="room-card1">
-        <div class="room-p">
-          <div class="room-p2">
-            <h3>Ремонт на дому</h3>
-            <p>
-              Почините свой неисправный компьютер <br />
-              не выходя из квартиры
-            </p>
+      <div class="n-main-card-product">
+        <div class="n-main-card-card">
+          <img src="../nimg/iMac 24 inch 1.png" alt="">
+          <div class="n-main-card-text">
+            <div class="n-main-card-text-p">
+              <h3>Моноблоки</h3>
+              <p>Множество брендов и моделей</p>
+            </div>
           </div>
-          <button>Вызвать мастера</button>
+          <i class='bx bx-chevron-right box-right2'></i>
         </div>
-        <div class="room-img">
-          <img src="../nimg/Frame 668.png" alt="" />
-        </div>
-      </div>
-      <div class="room-card1">
-        <div class="room-p">
-          <div class="room-p2">
-            <h3>Ремонт на дому</h3>
-            <p>
-              Почините свой неисправный компьютер <br />
-              не выходя из квартиры
-            </p>
+        <div class="n-main-card-card">
+          <img src="../nimg/iMac 24 inch 1.png" alt="">
+          <div class="n-main-card-text">
+            <div class="n-main-card-text-p">
+              <h3>Моноблоки</h3>
+              <p>Множество брендов и моделей</p>
+            </div>
           </div>
-          <button>Вызвать мастера</button>
+          <i class='bx bx-chevron-right box-right2'></i>
         </div>
-        <div class="room-img">
-          <img src="../nimg/Frame 668.png" alt="" />
+        <div class="n-main-card-card">
+          <img src="../nimg/iMac 24 inch 1.png" alt="">
+          <div class="n-main-card-text">
+            <div class="n-main-card-text-p">
+              <h3>Моноблоки</h3>
+              <p>Множество брендов и моделей</p>
+            </div>
+          </div>
+          <i class='bx bx-chevron-right box-right2'></i>
         </div>
       </div>
-    </div>
-    <div class="main-card2">
-      <div class="main-card-new">
-        <div class="main-summa">
-          <div class="main-summa2">
-            <img src="../nimg/money-dynamic-color.png" alt="">
-            <h4>от 2000 ₽</h4>
-          </div>
-          <div class="main-summa2">
-            <img src="../nimg/money-dynamic-color.png" alt="">
-            <h4>от 2000 ₽</h4>
-          </div>
-        </div>
-        <div class="n-main-card">
-          <img src="../nimg/Frame 657.png" alt="">
-          <h4>Вызовите специалиста</h4>
-          <p>Оставьте заявку и специалист
-            <br> приедет на указанный Вами адрес
-          </p>
-          <button>Оставить заявку</button>
-        </div>
-        <div class="n-main-card">
-          <img src="../nimg/Frame 656.png" alt="">
-          <h4>Вызовите специалиста</h4>
-          <p>Оставьте заявку и специалист
-            <br> приедет на указанный Вами адрес
-          </p>
-          <button>Оставить заявку</button>
-        </div>
+      <div class="n-main-text2-product">
+        <p>Не нашли свой тип техники?
+        <br> Оставьте заявку и мы Вам поможем</p>
+      </div>
+      <div class="n-main-button-product">
+        <button>Оставить
+        <br> заявку</button>
       </div>
     </div>
   </header>
-  <div class="n-kotegory3">
+  <div class="n-kotegory">
     <div class="n-kotegory-flex">
       <div class="n-laptop">
         <div class="n-laptop-p">
@@ -312,13 +286,6 @@
       <p>Если Вы не нашли свою неисправность - оставьте
         <br>заявку и мы поможем!
       </p>
-    </div>
-    <div class="n-kotegory2-butt">
-      <div class="n-kotegory2-butt-flex">
-        <button>Ноутбуки</button>
-        <button>Моноблоки</button>
-        <button>Компьютеры</button>
-      </div>
     </div>
     <div class="n-kotegory2-card">
       <div class="n-kotegory2-card-card">
@@ -677,129 +644,129 @@
       </div>
     </div>
     <!-- <swiper :slidesPerView="2" :spaceBetween="30" :keyboard="{
-    enabled: true,
-}" :pagination="{
-    clickable: true,
-}" :navigation="true" :modules="modules" class="mySwiper">
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
-    <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
-    <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide>
-    <swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
-</swiper> -->
+      enabled: true,
+  }" :pagination="{
+      clickable: true,
+  }" :navigation="true" :modules="modules" class="mySwiper">
+      <swiper-slide>Slide 1</swiper-slide>
+      <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
+      <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
+      <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide>
+      <swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
+  </swiper> -->
 
     <!-- <div class="mini01">
-    <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
-    <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
-</div> -->
+      <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
+      <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
+  </div> -->
     <div class="bg">
       <!-- <div class="cards">
-                <! <center class="cent">
-                    <h1 class="h11"><span> Порядок работы </span>при ремонте<br>
-                        компьютероной техники</h1>
-                </center> -->
+                  <! <center class="cent">
+                      <h1 class="h11"><span> Порядок работы </span>при ремонте<br>
+                          компьютероной техники</h1>
+                  </center> -->
       <!-- </div> -->
       <!-- <div class="kta">
-                <div class="cs">
-                    <div class="card">
-                        <img src="./image/phone-ringing-dynamic-color.png" alt="">
-                        <h3 class="h03">Ваша заявка на сайте
-                            или по телефону</h3>
-                        <p class="p02">С вами по телефону согласовывают
-                            дату и время выезда специалиста</p>
-                        <p class="p01">1 шаг</p>
-</div>
-                    <div class="card">
-                        <img src="./image/phone-ringing-dynamic-color.png" alt="">
-                        <h3 class="h03">Ваша заявка на сайте
-                            или по телефону</h3>
-                        <p class="p02">С вами по телефону согласовывают
-                            дату и время выезда специалиста</p>
-                        <p class="p01">1 шаг</p>
-</div>
-</div>
-                <div class="ss">
-                    <div class="card">
-                        <img src="./image/phone-ringing-dynamic-color.png" alt="">
-                        <h3 class="h03">Ваша заявка на сайте
-                            или по телефону</h3>
-                        <p class="p02">С вами по телефону согласовывают
-                            дату и время выезда специалиста</p>
-                        <p class="p01">2 шаг</p>
-</div>
-                    <div class="card">
-                        <img src="./image/phone-ringing-dynamic-color.png" alt="">
-                        <h3 class="h03">Ваша заявка на сайте
-                            или по телефону</h3>
-                        <p class="p02">С вами по телефону согласовывают
-                            дату и время выезда специалиста</p>
-                        <p class="p01">2 шаг</p>
-</div>
-</div>
-</div> -->
+                  <div class="cs">
+                      <div class="card">
+                          <img src="./image/phone-ringing-dynamic-color.png" alt="">
+                          <h3 class="h03">Ваша заявка на сайте
+                              или по телефону</h3>
+                          <p class="p02">С вами по телефону согласовывают
+                              дату и время выезда специалиста</p>
+                          <p class="p01">1 шаг</p>
+  </div>
+                      <div class="card">
+                          <img src="./image/phone-ringing-dynamic-color.png" alt="">
+                          <h3 class="h03">Ваша заявка на сайте
+                              или по телефону</h3>
+                          <p class="p02">С вами по телефону согласовывают
+                              дату и время выезда специалиста</p>
+                          <p class="p01">1 шаг</p>
+  </div>
+  </div>
+                  <div class="ss">
+                      <div class="card">
+                          <img src="./image/phone-ringing-dynamic-color.png" alt="">
+                          <h3 class="h03">Ваша заявка на сайте
+                              или по телефону</h3>
+                          <p class="p02">С вами по телефону согласовывают
+                              дату и время выезда специалиста</p>
+                          <p class="p01">2 шаг</p>
+  </div>
+                      <div class="card">
+                          <img src="./image/phone-ringing-dynamic-color.png" alt="">
+                          <h3 class="h03">Ваша заявка на сайте
+                              или по телефону</h3>
+                          <p class="p02">С вами по телефону согласовывают
+                              дату и время выезда специалиста</p>
+                          <p class="p01">2 шаг</p>
+  </div>
+  </div>
+  </div> -->
       <!-- <center>
-                <div class="mini">
-                    <p>Оставьте заявку на сайте и наш менеджер<br>
-                        сразу же с Вами свяжется!</p>
-                    <div class="dum">Оставить
-                        заявку</div>
-</div>
-            </center> -->
+                  <div class="mini">
+                      <p>Оставьте заявку на сайте и наш менеджер<br>
+                          сразу же с Вами свяжется!</p>
+                      <div class="dum">Оставить
+                          заявку</div>
+  </div>
+              </center> -->
       <div class="mnca">
 
         <!-- <div class="orta-kicj">
-                    <center>
-                        <h1 class="asd">Наши мастера и курьеры<br>
-                            всегда готовы <span class="spn1"> приехать на помощь</span></h1>
-                        <p class="pp1">Вызовите мастера или курьера в любой<br>
-                            район Санкт-Петербурга</p>
-</center>
-                    <div class="kicik">
-                        <div class="kam">
-                            <img src="./image/IMG_5730.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/Frame 596.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/IMG_5729 2.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/IMG_5734.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/изображение 1.png" alt="">
-</div>
-</div>
-                    <div class="kicik2">
-                        <div class="kam">
-                            <img src="./image/IMG_5735.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/IMG_5737.png" alt="">
-</div>
-                        <div class="kam">
-                            <img src="./image/IMG_5731.png" alt="">
-</div>
-</div>
-                    <center><button class="clci">Вызвать мастера на дом</button></center>
-</div> -->
+                      <center>
+                          <h1 class="asd">Наши мастера и курьеры<br>
+                              всегда готовы <span class="spn1"> приехать на помощь</span></h1>
+                          <p class="pp1">Вызовите мастера или курьера в любой<br>
+                              район Санкт-Петербурга</p>
+  </center>
+                      <div class="kicik">
+                          <div class="kam">
+                              <img src="./image/IMG_5730.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/Frame 596.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/IMG_5729 2.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/IMG_5734.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/изображение 1.png" alt="">
+  </div>
+  </div>
+                      <div class="kicik2">
+                          <div class="kam">
+                              <img src="./image/IMG_5735.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/IMG_5737.png" alt="">
+  </div>
+                          <div class="kam">
+                              <img src="./image/IMG_5731.png" alt="">
+  </div>
+  </div>
+                      <center><button class="clci">Вызвать мастера на дом</button></center>
+  </div> -->
 
         <div class="maxx">
           <!-- <div class="mini01">
-                        <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
-                        <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
-</div> -->
+                          <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
+                          <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
+  </div> -->
           <!-- <div class="halilov"> -->
           <!-- <center>
-                            <h1 class="bole">Более 200 отзывов <br>
-                                от <span> реальных клиентов</span></h1>
-</center> -->
+                              <h1 class="bole">Более 200 отзывов <br>
+                                  от <span> реальных клиентов</span></h1>
+  </center> -->
           <!-- </div> -->
           <!-- <center class="pasd">
-                        <p class="pro">Прочитайте отзывы на сторонних ресурсах<br>
-                            и убедитесь в качестве нашей работы</p>
-</center> -->
+                          <p class="pro">Прочитайте отзывы на сторонних ресурсах<br>
+                              и убедитесь в качестве нашей работы</p>
+  </center> -->
           <div class="iconka">
             <img src="./image/Frame 31.png" alt="">
             <img src="./image/Frame 32.png" alt="">
@@ -890,64 +857,64 @@
             </swiper>
             <div class="phon">
               <!-- <swiper :slidesPerView="1" :spaceBetween="10" :loop="true" :pagination="{
-        clickable: true,
-    }" :navigation="true" :modules="modules" class="mySwiper3">
-        <swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide><swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide><swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide><swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide><swiper-slide>
-            <div class="cardcami">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <p>Lorem, ipsum.</p>
-            </div>
-        </swiper-slide>
-    </swiper> -->
+          clickable: true,
+      }" :navigation="true" :modules="modules" class="mySwiper3">
+          <swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide><swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide><swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide><swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide><swiper-slide>
+              <div class="cardcami">
+                  <h1>Lorem ipsum dolor sit.</h1>
+                  <p>Lorem, ipsum.</p>
+              </div>
+          </swiper-slide>
+      </swiper> -->
               <!-- <div class="mini01">
-        <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
-        <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании к
-            современному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
-    </div> -->
+          <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
+          <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании к
+              современному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
+      </div> -->
               <div class="mini01">
                 <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
                 <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании ксовременному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
@@ -1011,207 +978,207 @@
               </div>
               <!-- <div class="latta" style="margin-top: 100px;"> -->
               <!-- <center>
-                                    <h1 class="qoch">Вызовите специалиста на дом<br>
-                                        <span>Приедем в любой район</span> Санкт-Петербурга
-                                    </h1>
-                                    <p class="poch" style="margin-top: 30px;">Мы приедем, починим Ваше устройство или заберем
-                                        его в сервисный центр для дальнейшего ремонта</p>
-                                </center> -->
+                                      <h1 class="qoch">Вызовите специалиста на дом<br>
+                                          <span>Приедем в любой район</span> Санкт-Петербурга
+                                      </h1>
+                                      <p class="poch" style="margin-top: 30px;">Мы приедем, починим Ваше устройство или заберем
+                                          его в сервисный центр для дальнейшего ремонта</p>
+                                  </center> -->
               <!-- <div class="bosh">
-                                    <div class="kalla2">
-                                        <div class="pta">
-                                            <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                        <div class="pta">
-                                            <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                        <div class="pta">
-                                            <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                    </div>
-                                    <div class="kalla">
-                                        <div class="pta">
-                                            <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                        <div class="pta">
-                                            <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                        <div class="pta">
-                                            <img src="../components/image/Metro_Sankt-Petersburg 9.png" alt="">
-                                            <br>
-                                            <h4>Красная ветка</h4>
-                                            <p>Все станции красной ветки метрополитена <br>
-                                                и районы вокруг</p>
-                                        </div>
-                                    </div>
-                                    <div class="mini02">
+                                      <div class="kalla2">
+                                          <div class="pta">
+                                              <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                          <div class="pta">
+                                              <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                          <div class="pta">
+                                              <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                      </div>
+                                      <div class="kalla">
+                                          <div class="pta">
+                                              <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                          <div class="pta">
+                                              <img src="./image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                          <div class="pta">
+                                              <img src="../components/image/Metro_Sankt-Petersburg 9.png" alt="">
+                                              <br>
+                                              <h4>Красная ветка</h4>
+                                              <p>Все станции красной ветки метрополитена <br>
+                                                  и районы вокруг</p>
+                                          </div>
+                                      </div>
+                                      <div class="mini02">
 
-                                    </div>
-                                </div> -->
+                                      </div>
+                                  </div> -->
               <!-- <swiper style="width:70%;margin:auto" :slidesPerView="2" :spaceBetween="0" :loop="true" :pagination="{
-                                                        clickable: true,
-                                                    }" :navigation="true" :modules="modules" class="mySwiper0">
-                                                        <swiper-slide>
-                                                            <div class="mgi">
-                                                                <h3><i class='bx bxl-google'></i>
-                                                                    <p class="p001">|</p> Егор Панов
-                                                                </h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
-                                                                    Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-                                                            </div>
-</swiper-slide>
-<swiper-slide>
-                                                            <div class="mgi2">
-                                                                <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
-                                                                </h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-                                                            </div>
-</swiper-slide>
-<swiper-slide>
-                                                            <div class="mgi">
-                                                                <h3><i class='bx bxl-google'></i>
-                                                                    <p class="p001">|</p> Егор Панов
-</h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
-                                                                    Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-</div>
-</swiper-slide>
-<swiper-slide>
-                                                            <div class="mgi2">
-                                                                <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
-                                                                </h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-</div>
-</swiper-slide><swiper-slide>
-                                                            <div class="mgi2">
-                                                                <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
-</h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-</div>
-</swiper-slide>
-                                                        <swiper-slide>
-                                                            <div class="mgi">
-                                                                <h3><i class='bx bxl-google'></i>
-                                                                    <p class="p001">|</p> Егор Панов
-                                                                </h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
-                                                                    Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-</div>
-</swiper-slide>
-                                                        <swiper-slide>
-                                                            <div class="mgi2">
-                                                                <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
-</h3><br>
-        <p class="otl">Отличный сервисный центр! Взялись заработу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-Спасибо огромное ребятам за качественный ремонт!
-Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="mgi">
-                <h3><i class='bx bxl-google'></i>
-                    <p class="p001">|</p> Егор Панов
-                </h3><br>
-                <p class="otl">Отличный сервисный центр! Взялись за
-                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
-                                                                    Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-                                                            </div>
-                                                        </swiper-slide><swiper-slide>
-                                                    
-                                                            <div class="mgi2">
-                                                                <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
-                                                                </h3><br>
-                                                                <p class="otl">Отличный сервисный центр! Взялись за
-                                                                    работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
-                                                                    По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
-                                                                    Спасибо огромное ребятам за качественный ремонт!
-                                                                    Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
-                                                            </div>
-                                                        </swiper-slide>
-                                                    </swiper> -->
+                                                          clickable: true,
+                                                      }" :navigation="true" :modules="modules" class="mySwiper0">
+                                                          <swiper-slide>
+                                                              <div class="mgi">
+                                                                  <h3><i class='bx bxl-google'></i>
+                                                                      <p class="p001">|</p> Егор Панов
+                                                                  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
+                                                                      Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+                                                              </div>
+  </swiper-slide>
+  <swiper-slide>
+                                                              <div class="mgi2">
+                                                                  <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
+                                                                  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+                                                              </div>
+  </swiper-slide>
+  <swiper-slide>
+                                                              <div class="mgi">
+                                                                  <h3><i class='bx bxl-google'></i>
+                                                                      <p class="p001">|</p> Егор Панов
+  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
+                                                                      Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+  </div>
+  </swiper-slide>
+  <swiper-slide>
+                                                              <div class="mgi2">
+                                                                  <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
+                                                                  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+  </div>
+  </swiper-slide><swiper-slide>
+                                                              <div class="mgi2">
+                                                                  <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
+  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+  </div>
+  </swiper-slide>
+                                                          <swiper-slide>
+                                                              <div class="mgi">
+                                                                  <h3><i class='bx bxl-google'></i>
+                                                                      <p class="p001">|</p> Егор Панов
+                                                                  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
+                                                                      Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+  </div>
+  </swiper-slide>
+                                                          <swiper-slide>
+                                                              <div class="mgi2">
+                                                                  <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
+  </h3><br>
+          <p class="otl">Отличный сервисный центр! Взялись заработу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+  Спасибо огромное ребятам за качественный ремонт!
+  Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+              </div>
+          </swiper-slide>
+          <swiper-slide>
+              <div class="mgi">
+                  <h3><i class='bx bxl-google'></i>
+                      <p class="p001">|</p> Егор Панов
+                  </h3><br>
+                  <p class="otl">Отличный сервисный центр! Взялись за
+                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основной камеры iPhone 12 и соответсвенно пришла в негодность и сама камера.
+                                                                      Вечером сдал - днём следующего дня забрал. Все сделано просто идеально! Со стороны вообще не сказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+                                                              </div>
+                                                          </swiper-slide><swiper-slide>
+                                                      
+                                                              <div class="mgi2">
+                                                                  <h3 class="aass"><i class='bx bxl-google'></i> Егор Панов
+                                                                  </h3><br>
+                                                                  <p class="otl">Отличный сервисный центр! Взялись за
+                                                                      работу, от которой отказывались в авторизованных сервисных центрах, ссылаясь на неремонтопригодность.
+                                                                      По нелепой случайности разбился глазок основносказать, что с телефоном производились какие-то манипуляции в плане ремонта.
+                                                                      Спасибо огромное ребятам за качественный ремонт!
+                                                                      Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
+                                                              </div>
+                                                          </swiper-slide>
+                                                      </swiper> -->
               <!-- </div> -->
               <div class="page-nechi">
                 <!-- <center><span class="page-span">Принимаем к оплате</span>
-                                    <h1>наличные, карты и переводы</h1>
-                                </center> -->
+                                      <h1>наличные, карты и переводы</h1>
+                                  </center> -->
                 <!-- <div class="necicard">
-                                    <div class="ant">
-                                        <div class="anm">
-                                            <h3>Наличный рассчет</h3>
-                                            <p>Оплата услуг наличными</p>
-                                        </div>
-                                        <img src="./image/money-dynamic-color.png" alt="">
-                                    </div>
-                                    <div class="ant">
-                                        <div class="anm">
-                                            <h3>Наличный рассчет</h3>
-                                            <p>Оплата услуг наличными</p>
-                                        </div>
-                                        <img src="./image/money-dynamic-color.png" alt="">
-                                    </div>
-                                    <div class="ant">
-                                        <div class="anm">
-                                            <h3>Наличный рассчет</h3>
-                                            <p>Оплата услуг наличными</p>
-                                        </div>
-                                        <img src="./image/money-dynamic-color.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="mip">
-                                    <img src="./image/Frame 631.png" alt="">
-                                </div>
-                                <div class="mini01">
-                                    <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
-                                    <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании к
-                                        современному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
-                                </div> -->
+                                      <div class="ant">
+                                          <div class="anm">
+                                              <h3>Наличный рассчет</h3>
+                                              <p>Оплата услуг наличными</p>
+                                          </div>
+                                          <img src="./image/money-dynamic-color.png" alt="">
+                                      </div>
+                                      <div class="ant">
+                                          <div class="anm">
+                                              <h3>Наличный рассчет</h3>
+                                              <p>Оплата услуг наличными</p>
+                                          </div>
+                                          <img src="./image/money-dynamic-color.png" alt="">
+                                      </div>
+                                      <div class="ant">
+                                          <div class="anm">
+                                              <h3>Наличный рассчет</h3>
+                                              <p>Оплата услуг наличными</p>
+                                          </div>
+                                          <img src="./image/money-dynamic-color.png" alt="">
+                                      </div>
+                                  </div>
+                                  <div class="mip">
+                                      <img src="./image/Frame 631.png" alt="">
+                                  </div>
+                                  <div class="mini01">
+                                      <img src="./image/free-icon-quote-565703 1 (Traced).png" alt="">
+                                      <p class="p6">Все работы, которые мы выполняем, требуют неограниченного доступа персонала компании к
+                                          современному оборудованию и инструменту, что не является проблемой, поскольку ремонтная база мастерской безупречно оснащена. Кроме того, в распоряжении сотрудников сервис-центра имеется небольшой склад оригинальных запчастей, благодаря которому удается существенно сократить время починки компьютера. Наши специалисты постоянно повышают собственную квалификацию и накапливают полезные знания и опыт в сфере ремонта компьютерной техники</p>
+                                  </div> -->
               </div>
             </div>
           </div>
@@ -1305,7 +1272,7 @@
     </div>
   </div>
 
-  <!-- <div class="mxmgi">
+<!-- <div class="mxmgi">
                                     <div class="mgi">
                                         <h3><i class='bx bxl-google'></i>
                                             <p class="p001">|</p> Егор Панов
@@ -1326,17 +1293,36 @@
                                             Спасибо огромное ребятам за качественный ремонт!
                                             Хоть и есть сервисные центры ближе к дому, но теперь однозначно буду ездить только сюда!</p>
                                     </div>
-                                </div> -->
-</template>
+                                </div> --></template>
 
 <style>
-.n-kotegory3 {
+.n-kotegory2 {
+  display: none;
+}
+
+.n-text {
+  display: none;
+}
+
+.n-partner {
+  display: none;
+}
+
+.carousel {
+  display: none;
+}
+
+.n-all-partner {
+  display: none;
+}
+
+.n-kotegory {
   width: 100%;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-around;
   background: #FFF;
@@ -1347,7 +1333,7 @@
 }
 
 .qoch {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 </style>
 <script>

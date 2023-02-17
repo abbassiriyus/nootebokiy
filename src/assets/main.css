@@ -37,7 +37,8 @@
   z-index: 1;
   /* top of the menu */
 }
-.iconka img{
+
+.iconka img {
   transition: .2s;
 }
 
@@ -210,6 +211,7 @@
   display: none;
   left: 60%;
 }
+
 .main-card1 {
   width: 79%;
   display: none;
@@ -309,7 +311,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 
   .room-img img {
@@ -737,14 +739,14 @@ h2 {
 }
 
 .n-partner-flex {
-  width: 50%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .n-partner-flex2 {
-  width: 60%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1034,9 +1036,11 @@ h2 {
 .n-footer-card-about h4 {
   font-weight: bold;
 }
-.n-footer-card-about{
+
+.n-footer-card-about {
   margin-top: 10px !important;
 }
+
 .n-footer-card-about p {
   opacity: 0.8;
   font-weight: 600;
@@ -1337,23 +1341,28 @@ h2 {
   margin-top: 120px;
   margin-left: 0% !important;
 }
-.vizrat:hover{
+
+.vizrat:hover {
   background: #4047FF;
   color: #fff;
   border: 1px solid #fff;
   width: 60%;
 }
+
 .mini01 img {
   width: 30px;
   height: 30px;
 }
-button{
+
+button {
   transition: .4s;
 }
-button:hover{
+
+button:hover {
   background: white;
   color: #4047FF;
 }
+
 .p6 {
   width: 70%;
   color: white;
@@ -1761,6 +1770,11 @@ body.active {
   color: red;
   font-size: 50px;
 }
+.box-x2 {
+  color: red;
+  font-size: 50px;
+  display: none;
+}
 
 .coment-h3-and-x button {
   border: none;
@@ -2074,6 +2088,7 @@ body.active {
   position: absolute;
   top: 10px;
   right: 10px;
+  display: none;
   background: #FFF;
 }
 
@@ -2209,12 +2224,14 @@ body.active {
   color: #000;
   font-weight: bold;
 }
-.n-kotegory2-text p{
+
+.n-kotegory2-text p {
   font-weight: bold;
   color: #000;
   opacity: 0.8;
 }
-.n-kotegory2-card{
+
+.n-kotegory2-card {
   width: 100%;
 
   padding-bottom: 20px;
@@ -2224,7 +2241,8 @@ body.active {
   background: #FFF;
   flex-wrap: wrap;
 }
-.n-kotegory2-card-card{
+
+.n-kotegory2-card-card {
   width: 30%;
   display: flex;
   align-items: center;
@@ -2233,9 +2251,10 @@ body.active {
   position: relative;
   background: #F5F5F5;
   margin-top: 30px;
-  
+
 }
-.box-right{
+
+.box-right {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -2244,7 +2263,8 @@ body.active {
   border: none;
   cursor: pointer;
 }
-.n-kotegoty-card-text{
+
+.n-kotegoty-card-text {
   width: auto;
   display: flex;
   margin-left: 10px;
@@ -2252,28 +2272,34 @@ body.active {
   padding-top: 15px;
   justify-content: left;
   flex-direction: column;
-  
+
 }
-.n-kotegory2-card-card img{
+
+.n-kotegory2-card-card img {
   margin-left: 20px;
 }
-.n-kotegoty-card-text h4,p{
+
+.n-kotegoty-card-text h4,
+p {
   font-weight: bold;
 }
-.n-kotegory2-text span{
+
+.n-kotegory2-text span {
   color: #4047FF;
   font-weight: bold;
 }
-.n-kotegory2-btn{
+
+.n-kotegory2-btn {
   width: 100%;
   padding-top: 0px;
   padding-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.405);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.405);
 }
-.n-kotegory2-btn button{
+
+.n-kotegory2-btn button {
   width: auto;
   padding: 14px;
   padding-right: 30px;
@@ -2284,4 +2310,165 @@ body.active {
   color: #FFF;
   border-radius: 20px;
   font-weight: bold;
+}
+
+.n-kotegory2-butt {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.n-kotegory2-butt-flex {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.n-kotegory2-butt-flex button {
+  width: auto;
+  padding: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #F5F5F5;
+  border-radius: 20px;
+  border: none;
+  font-weight: 1000;
+}
+.n-main-product{
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #FFF;
+}
+.n-main-text-product{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+}
+.n-main-text-product h1{
+  font-weight: bold;
+  
+}
+.n-main-text-product p{
+  color: #000;
+  opacity: 0.6;
+}
+.n-main-text-product span{
+  color: #4047FF;
+}
+.n-main-card-product{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.n-main-card-card{
+  width: auto;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background: #FCEBFF;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  position: relative;
+}
+.n-main-card-text h3{
+  color: #000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.n-main-card-text{
+  position: relative;
+}
+.n-main-card-text-p{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  flex-direction: column;
+}
+.box-right2{
+  position: absolute;
+  right: 10px;
+  bottom: 27px;
+  background: #FFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+}
+@media(max-width:400px){
+  .n-main-card-card {
+      width: 80%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 20px;
+      background: #FCEBFF;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      position: relative;
+    }
+    .n-main-card-card img{
+      width: 110%;
+    }
+}
+@media(max-width:1000px){
+.menu-absolute-modal button {
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    background: #FFF;
+  }
+}
+.n-main-text2-product{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
+.n-main-button-product{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.n-main-button-product button{
+  background: #4047FF;
+    border-radius: 100px;
+    width: auto;
+    padding: 35px;
+    border: none;
+    box-shadow: 0px 0px 10px #4047FF;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
 }
