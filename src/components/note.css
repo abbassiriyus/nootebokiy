@@ -429,7 +429,14 @@ center {
         margin-top: 10px;
     }
 }
-
+.iconka{
+    display: flex;
+    justify-content: center;
+}
+.iconka img{
+    margin-left: 10px;
+    border-radius: 50%;
+}
 .iconka img:hover {
     box-shadow: 0 0 10px white, inset 0 10px 0 white;
     scale: .9;
