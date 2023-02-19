@@ -19,11 +19,11 @@ import Senter from "./components/О сервисном центре.vue"
 <template>
   <main>
     <Main />
-    <!-- <HomeFooter /> -->
+    <HomeFooter />
   </main>
 
 
-<template>
+  
 
 <div>
 
