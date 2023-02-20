@@ -1334,14 +1334,28 @@
     justify-content: space-around;
     background: #FFF;
 }
-
-.n-footer {
+.n-kotegory2{
+    display: flex;
+}
+.n-text{
+    display: flex;
+}
+.n-partner{
+    display: flex;
+}
+.n-all-partner{
+    display: flex;
+}
+.n-footer{
+    display: flex;
+}
+.n-partner{
     display: none;
 }
-
-.qoch {
-    padding-top: 150px;
+.n-footer {
+    display: flex;
 }
+
 </style>
 <script>
 // Import Swiper Vue.js components

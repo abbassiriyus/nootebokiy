@@ -196,7 +196,7 @@
         </h1>
         <p>Выберите тип техники, который хотите починить</p>
       </div>
-       <div class="n-partner">
+       <div id="n-partner" class="n-partner">
       <div class="n-partner-flex">
         <div class="n-partner-logo">
           <img src="../nimg/image 72 (Traced).png" alt="" />
@@ -1381,7 +1381,29 @@
   justify-content: space-around;
   background: #FFF;
 }
+.n-kotegory2{
+    display: flex;
+}
+.n-text{
+    display: flex;
+}
+.n-partner{
+  display: flex;
+}
 
+#n-partner{
+    display: flex;
+}
+.n-all-partner{
+    display: flex;
+}
+.n-footer{
+    display: flex;
+}
+
+.n-footer {
+    display: flex;
+}
 .n-footer {
   display: none;
 }

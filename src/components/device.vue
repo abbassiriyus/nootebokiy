@@ -1296,6 +1296,28 @@
                                 </div> --></template>
 
 <style>
+.n-kotegory2{
+    display: flex;
+}
+.n-text{
+    display: flex;
+}
+.n-partner{
+  display: flex;
+}
+
+#n-partner{
+    display: flex;
+}
+.n-all-partner{
+    display: flex;
+}
+.n-footer{
+    display: flex;
+}
+.n-footer {
+  display: flex;
+}
 .n-kotegory2 {
   display: none;
 }

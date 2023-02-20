@@ -389,7 +389,7 @@
 
   </div>
 
-  <div class="n-text">
+  <div id="n-text" class="n-text">
     <p>
       Выберите один из множества <span>различных <br>
         брендов компьтеров,</span> которых мы ремонтируем
@@ -397,7 +397,7 @@
     </p>
   </div>
 
-  <div class="n-partner">
+  <div id="n-partner3" class="n-partner">
     <div class="n-partner-flex">
       <div class="n-partner-logo">
         <img src="../nimg/image 72 (Traced).png" alt="" />
@@ -463,7 +463,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="n-all-partner">
+  <div id="n-all-partner" class="n-all-partner">
     <div class="n-all-partner-p">
       <p>
         Ремонтируем более 20 различных брендов компьютерной техники. <br />
@@ -474,7 +474,7 @@
       <button>Посмотреть все бренды</button>
     </div>
   </div>
-  <div class="n-footer">
+  <div id="n-footer" class="n-footer">
     <div class="n-footer-card-p">
       <div class="n-footer-p-card">
         <h4>Почему <br />клиенты выбирают</h4>
@@ -1341,8 +1341,16 @@
   justify-content: space-around;
   background: #FFF;
 }
-
-.n-footer {
+#n-text{
+  display: none;
+}
+#n-partner3{
+  display: none;
+}
+#n-all-partner{
+  display: none;
+}
+#n-footer {
   display: none;
 }
 

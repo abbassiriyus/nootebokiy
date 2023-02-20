@@ -1,239 +1,258 @@
 <template>
     <header class="header1">
         <nav class="n-nav">
-            <div class="nav-logo">
-                <button><i class="bx bx-laptop box-lap"></i>Компьютерный сервис</button>
-            </div>
-            <div class="nav-menu">
-                <button class="addres">Все районы города | +7 (812) 409-42-65</button>
-                <button class="call">Вызвать специалиста</button>
-                <button onclick="document.querySelector('.menu').classList.toggle('active')
-        document.querySelector('.menu-absolute').classList.toggle('active')
-        document.querySelector('body').classList.toggle('active')" class="menu">
-                 <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
-                </button>
-            </div>
+          <div class="nav-logo">
+            <button><i class="bx bx-laptop box-lap"></i>Компьютерный сервис</button>
+          </div>
+          <div class="nav-menu">
+            <button class="addres">Все районы города | +7 (812) 409-42-65</button>
+            <button class="call">Вызвать специалиста</button>
+            <button
+              onclick="document.querySelector('.menu').classList.toggle('active')
+            document.querySelector('.menu-absolute').classList.toggle('active')
+            document.querySelector('body').classList.toggle('active')"
+              class="menu"
+            >
+              <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
+            </button>
+          </div>
         </nav>
         <div class="menu-absolute">
-            <div class="menu-absolute-fixsed">
-                <div class="menu-absolute-call">
-                    <div class="absolute-num">
-                        <h3>Все районы Санкт-Петербурга</h3>
-                        <h1>+7 (812) 333-70-75</h1>
-                    </div>
-
-                    <hr />
-                    <div class="absolute-time">
-                        <p>
-                            Выезд матеров<br />
-                            <span>с 10:00 до 21:00</span>
-                        </p>
-                        <p>
-                            Выезд матеров<br />
-                            <span>с 10:00 до 21:00</span>
-                        </p>
-                    </div>
-                    <hr />
-                    <div class="absolute-locate">
-                        <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
-                        <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
-                        <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
-                        <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
-                        <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
-                        <p>Приедем на любой <br />указанный адрес</p>
-                    </div>
-                </div>
-                <div class="menu-absolute-seti">
-                    <div class="absolute-num">
-                        <h3>Мессенджеры</h3>
-                        <p>
-                            Пишите нам в мессенджеры или на <br />электронную почту. Ждем
-                            Ваших обращений!
-                        </p>
-                    </div>
-
-                    <div class="absolute-sot-seti">
-                        <div class="absolute-telegram">
-                            <button><i class="bx bxl-telegram box-tel"></i>Telegram</button>
-                            <button><i class="bx bxl-telegram box-tel"></i>Telegram</button>
-                        </div>
-                        <div class="absolute-gmail">
-                            <button>
-                                <i class="bx bxl-gmail box-tel"></i>3771404@gmail.com
-                            </button>
-                        </div>
-                    </div>
-                    <div class="border"></div>
-                    <div class="absolute-zakaz">
-                        <button class="zayavka" onclick="document.querySelector('.coment-absolute').style='display: block;'">
-                            Оставить заявку
-                        </button>
-                    </div>
-                </div>
-                <div class="menu-absolute-modal">
-                    <button onclick="document.querySelector('.menu-absolute').style = 'display: none;'"><i class='bx bx-x bx-spin box-x'></i></button>
-                    <div class="menu-absolute-modal-h3">
-                        <h3>Меню</h3>
-                    </div>
-                    <div class="menu-absolute-modal-ul">
-                        <ul class="menu-ul">
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Устройства</a></li>
-                            <li><a href="#">Бренды</a></li>
-                            <li><a href="#">Районы обслуживания</a></li>
-                            <li><a href="#">Оставить заявку</a></li>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="menu-absolute-fixsed">
+            <div class="menu-absolute-call">
+              <div class="absolute-num">
+                <h3>Все районы Санкт-Петербурга</h3>
+                <h1>+7 (812) 333-70-75</h1>
+              </div>
+    
+              <hr />
+              <div class="absolute-time">
+                <p>
+                  Выезд матеров<br />
+                  <span>с 10:00 до 21:00</span>
+                </p>
+                <p>
+                  Выезд матеров<br />
+                  <span>с 10:00 до 21:00</span>
+                </p>
+              </div>
+              <hr />
+              <div class="absolute-locate">
+                <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
+                <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
+                <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
+                <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
+                <img src="../nimg/Metro_Sankt-Petersburg 8.png" alt="" />
+                <p>Приедем на любой <br />указанный адрес</p>
+              </div>
             </div>
+            <div class="menu-absolute-seti">
+              <div class="absolute-num">
+                <h3>Мессенджеры</h3>
+                <p>
+                  Пишите нам в мессенджеры или на <br />электронную почту. Ждем
+                  Ваших обращений!
+                </p>
+              </div>
+    
+              <div class="absolute-sot-seti">
+                <div class="absolute-telegram">
+                  <button><i class="bx bxl-telegram box-tel"></i>Telegram</button>
+                  <button><i class="bx bxl-telegram box-tel"></i>Telegram</button>
+                </div>
+                <div class="absolute-gmail">
+                  <button>
+                    <i class="bx bxl-gmail box-tel"></i>3771404@gmail.com
+                  </button>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="absolute-zakaz">
+                <button
+                  class="zayavka"
+                  onclick="document.querySelector('.coment-absolute').style='display: block;'"
+                >
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+            <div class="menu-absolute-modal">
+              <button onclick="document.querySelector('.menu-absolute').style = 'display: none;'"><i class='bx bx-x bx-spin box-x'></i></button>
+              <div class="menu-absolute-modal-h3">
+                <h3>Меню</h3>
+              </div>
+              <div class="menu-absolute-modal-ul">
+                <ul class="menu-ul">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">Устройства</a></li>
+                  <li><a href="#">Бренды</a></li>
+                  <li><a href="#">Районы обслуживания</a></li>
+                  <li><a href="#">Оставить заявку</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="coment-absolute">
-            <div class="coment-fixsed">
-                <div class="zayavka-coment">
-                    <div class="coment-h3-and-x">
-                        <h3>Оставить<span> заявку</span></h3>
-                        <button onclick="document.querySelector('.coment-absolute').style='display: none;'">
-                            <i class="bx bx-x bx-flashing bx-rotate-90 box-x"></i>
-                        </button>
-                    </div>
-                    <div class="coment-p">
-                        <p>Пожалуйста, запонилните форму обратной связи</p>
-                    </div>
-                    <div class="coment-p2">
-                        <p>Тип устройства</p>
-                    </div>
-                    <div class="coment-button">
-                        <button>Ноутбуки</button>
-                        <button>Моноблоки</button>
-                        <button>Компьютеры</button>
-                    </div>
-                    <div class="coment-input">
-                        <div class="coment-input-p">
-                            <p>Ваше имя</p>
-                            <input placeholder="Введите имя" type="text" />
-                        </div>
-                        <div class="coment-input-p">
-                            <p>Ваш телефон</p>
-                            <input placeholder="+7" type="text" />
-                        </div>
-                    </div>
-                    <div class="coment-button2">
-                        <button onclick="document.querySelector('.prinita-absolite').style='display: flex;'">Отправить заявку</button>
-                        <div class="coment-checkbox">
-                            <input type="checkbox" />
-                            <p>Обработка персональныхданных</p>
-                        </div>
-                    </div>
-                    <div class="coment-checkbox2">
-                        <div class="coment-checkbox">
-                            <input type="checkbox" />
-                            <p>Обработка персональныхданных</p>
-                        </div>
-                        <button>Отправить заявку</button>
-                    </div>
+          <div class="coment-fixsed">
+            <div class="zayavka-coment">
+              <div class="coment-h3-and-x">
+                <h3>Оставить<span> заявку</span></h3>
+                <button
+                  onclick="document.querySelector('.coment-absolute').style='display: none;'"
+                >
+                  <i class="bx bx-x bx-flashing bx-rotate-90 box-x"></i>
+                </button>
+              </div>
+              <div class="coment-p">
+                <p>Пожалуйста, запонилните форму обратной связи</p>
+              </div>
+              <div class="coment-p2">
+                <p>Тип устройства</p>
+              </div>
+              <div class="coment-button">
+                <button>Ноутбуки</button>
+                <button>Моноблоки</button>
+                <button>Компьютеры</button>
+              </div>
+              <div class="coment-input">
+                <div class="coment-input-p">
+                  <p>Ваше имя</p>
+                  <input placeholder="Введите имя" type="text" />
                 </div>
+                <div class="coment-input-p">
+                  <p>Ваш телефон</p>
+                  <input placeholder="+7" type="text" />
+                </div>
+              </div>
+              <div class="coment-button2">
+                <button onclick="document.querySelector('.prinita-absolite').style='display: flex;'" >Отправить заявку</button>
+                <div class="coment-checkbox">
+                  <input type="checkbox" />
+                  <p>Обработка персональныхданных</p>
+                </div>
+              </div>
+              <div class="coment-checkbox2">
+                <div class="coment-checkbox">
+                  <input type="checkbox" />
+                  <p>Обработка персональныхданных</p>
+                </div>
+                <button>Отправить заявку</button>
+              </div>
             </div>
+          </div>
         </div>
         <div class="prinita-absolite">
-            <div class="prinita-fixed">
-                <div class="prinita-flex">
-                    <div class="prinita-img">
-                        <button onclick="document.querySelector('.prinita-absolite').style='display: none;'" class="prinita-x-absolute"><i class="bx bx-x bx-flashing bx-rotate-90 box-x"></i></button>
-                        <img src="../nimg/fire-dynamic-color.png" alt="" />
-                    </div>
-                    <div class="prinita-text">
-                        <h2>Ваша заявка<span> принята</span></h2>
-                        <p>
-                            Больше спасибо, что оставили заявку. <br />
-                            Совсем скоро наш менеджер Вам перезвонит!
-                        </p>
-                    </div>
-                    <div class="prinita-btn">
-                        <button>Хорошо!</button>
-                    </div>
-                </div>
+          <div class="prinita-fixed">
+              <div class="prinita-flex">
+                <div class="prinita-img">
+              <button onclick="document.querySelector('.prinita-absolite').style='display: none;'" class="prinita-x-absolute"><i class="bx bx-x bx-flashing bx-rotate-90 box-x"></i></button>
+              <img src="../nimg/fire-dynamic-color.png" alt="" />
             </div>
-
+            <div class="prinita-text">
+              <h2>Ваша заявка<span> принята</span></h2>
+              <p>
+                Больше спасибо, что оставили заявку. <br />
+                Совсем скоро наш менеджер Вам перезвонит!
+              </p>
+            </div>
+            <div class="prinita-btn">
+              <button>Хорошо!</button>
+            </div>
+          </div>
+          </div>
+        
         </div>
         <nav class="nav2">
-            <div class="nav-logo2">
-                <div onclick="document.querySelector('.nav-menu2').classList.toggle('active')
-        document.querySelector('.menu').classList.toggle('active')
-        " id="menuToggle" class="menu">
-                    <input type="checkbox" />
-                    <span id="span1"></span>
-                    <span id="span2"></span>
-                    <span id="span3"></span>
-                </div>
+          <div class="nav-logo2">
+            <div
+              onclick="document.querySelector('.nav-menu2').classList.toggle('active')
+            document.querySelector('.menu').classList.toggle('active')
+            "
+              id="menuToggle"
+              class="menu"
+            >
+              <input type="checkbox" />
+              <span id="span1"></span>
+              <span id="span2"></span>
+              <span id="span3"></span>
             </div>
+          </div>
         </nav>
         <div class="nav-menu2">
-            <div class="nav-fixed">
-                <button onclick="document.querySelector('.menu').classList.toggle('active')
-        document.querySelector('.menu-absolute').classList.toggle('active')
-        document.querySelector('body').classList.toggle('active')" id="addres">
-                    <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
-                </button>
-                <button id="addres">
-                    <i class="bx bx-laptop box-lap"></i>Компьютерный сервис
-                </button>
-                <button id="addres" class="addres">
-                    Все районы города | +7 (812) 409-42-65
-                </button>
-                <button id="addres" onclick="document.querySelector('.coment-absolute').classList.toggle('active')
-        document.querySelector('.call').classList.toggle('active')
-        " class="call">
-                    Вызвать специалиста
-                </button>
-            </div>
+          <div class="nav-fixed">
+            <button
+              onclick="document.querySelector('.menu').classList.toggle('active')
+            document.querySelector('.menu-absolute').classList.toggle('active')
+            document.querySelector('body').classList.toggle('active')"
+              id="addres"
+            >
+              <i class="bx bx-dots-horizontal-rounded box-dot"></i>Меню
+            </button>
+            <button id="addres">
+              <i class="bx bx-laptop box-lap"></i>Компьютерный сервис
+            </button>
+            <button id="addres" class="addres">
+              Все районы города | +7 (812) 409-42-65
+            </button>
+            <button
+              id="addres"
+              onclick="document.querySelector('.coment-absolute').classList.toggle('active')
+            document.querySelector('.call').classList.toggle('active')
+            "
+              class="call"
+            >
+              Вызвать специалиста
+            </button>
+          </div>
         </div>
         <div class="main">
-            <div class="main-p">
-                <p>
-                    <span>Скидка 10%</span> на ремонт <br />
-                    компьютерной техники при <br />
-                    заявке через сайт
-                </p>
-            </div>
-            <div class="main-none2">
-                <img src="../nimg/gift-dynamic-color.png" alt="" />
-            </div>
+          <div class="main-p">
+            <p>
+              <span>Скидка 10%</span> на ремонт <br />
+              компьютерной техники при <br />
+              заявке через сайт
+            </p>
+          </div>
+          <div class="main-none2">
+            <img src="../nimg/gift-dynamic-color.png" alt="" />
+          </div>
         </div>
         <div class="main-card">
-            <div class="room-card1">
-                <div class="room-p">
-                    <div class="room-p2">
-                        <h3>Ремонт на дому</h3>
-                        <p>
-                            Почините свой неисправный ноутбук <br />
-                            не выходя из квартиры
-                        </p>
-                    </div>
-                    <button class="vizrat">Вызвать мастера</button>
-                </div>
-                <div class="room-img">
-                    <img src="../nimg/Frame 668.png" alt="" />
-                </div>
+          <div class="room-card1">
+            <div class="room-p">
+              <div class="room-p2">
+                <h3>Ремонт на дому</h3>
+                <p>
+                  Почините свой неисправный ноутбук <br />
+                  не выходя из квартиры
+                </p>
+              </div>
+              <button>Вызвать мастера</button>
             </div>
-            <div class="room-card1">
-                <div class="room-p">
-                    <div class="room-p2">
-                        <h3>Ремонт на дому</h3>
-                        <p>
-                            Почините свой неисправный ноутбук <br />
-                            не выходя из квартиры
-                        </p>
-                    </div>
-                    <button class="vizrat">Вызвать мастера</button>
-                </div>
-                <div class="room-img">
-                    <img src="../nimg/Frame 668.png" alt="" />
-                </div>
+            <div class="room-img">
+              <img src="../nimg/Frame 668.png" alt="" />
             </div>
+          </div>
+          <div class="room-card1">
+            <div class="room-p">
+              <div class="room-p2">
+                <h3>Ремонт на дому</h3>
+                <p>
+                  Почините свой неисправный ноутбук <br />
+                  не выходя из квартиры
+                </p>
+              </div>
+              <button>Вызвать мастера</button>
+            </div>
+            <div class="room-img">
+              <img src="../nimg/Frame 668.png" alt="" />
+            </div>
+          </div>
         </div>
-    </header>
+      </header>
     <div class="n-kotegory">
         <div class="n-kotegory-flex">
             <div class="n-laptop">

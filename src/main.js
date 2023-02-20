@@ -1,14 +1,18 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import router from "./router/index";
+
+Vue.use(VueRouter)
 
 
 createApp(App).mount('#app')
-import Main from "./components/Main.vue";
 
 import './assets/main.css'
 
-createApp(App).mount('#app')
-createApp(Main).mount('#main')
-
-
-createApp(App).mount('#app')
+new Vue({
+  render: h =>(App),
+  el: '#app',
+  router
+})

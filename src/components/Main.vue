@@ -1,3 +1,4 @@
+
 <template>
   <header class="header1">
     <nav class="n-nav">
@@ -85,7 +86,7 @@
             <ul class="menu-ul">
               <li><a href="#">Главная</a></li>
               <li><a href="#">Устройства</a></li>
-              <li><a href="#">Бренды</a></li>
+              <li><a href="#/Brend">Бренды</a></li>
               <li><a href="#">Районы обслуживания</a></li>
               <li><a href="#">Оставить заявку</a></li>
               <li><a href="#">О компании</a></li>
@@ -299,7 +300,7 @@
       множество <span>различных брендов</span>
     </p>
   </div>
-  <div class="n-partner">
+  <div id="n-partner" class="n-partner">
     <div class="n-partner-flex">
       <div class="n-partner-logo">
         <img src="../nimg/image 72 (Traced).png" alt="" />
@@ -472,7 +473,31 @@
   justify-content: space-around;
   background: #FFF;
 }
+.n-kotegory2{
+    display: flex;
+}
+.n-text{
+    display: flex;
+}
+.n-partner{
+  display: flex;
+}
 
+#n-partner{
+    display: flex;
+}
+.n-all-partner{
+    display: flex;
+}
+.n-footer{
+    display: flex;
+}
+.n-footer {
+  display: flex;
+}
+.n-partner{
+    display: none;
+}
 
 </style>
 <script>
@@ -500,5 +525,5 @@ export default {
         };
     },
 };
+  
 </script>
-
