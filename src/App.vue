@@ -21,25 +21,8 @@ import Mono from "./components/monoblocks.vue";
 </template>
 
 
-    <Main />
-    <HomeFooter />
-  </main>
-
-
-  
-
-<div>
-
-<Senter />
-
-</div>
-
-</template>
-
-
 <script>
   export default {
     name: 'App'
   }
 </script>
-
